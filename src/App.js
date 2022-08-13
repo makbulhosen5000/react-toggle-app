@@ -1,9 +1,9 @@
 import React from 'react'
-import FAQ from './components/FAQ';
+import FAQS from './components/FAQS';
 function App() {
   return (
     <div>
-          <FAQ />
+          <FAQS />
     </div>
   );
 }
