@@ -1,9 +1,9 @@
 import React from 'react'
-import Toggle from './components/Toggle';
+import FAQ from './components/FAQ';
 function App() {
   return (
     <div>
-          <Toggle />
+          <FAQ />
     </div>
   );
 }
