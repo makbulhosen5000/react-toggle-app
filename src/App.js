@@ -1,9 +1,16 @@
 import React from 'react'
-import FAQS from './components/FAQS';
+import FAQS from './components/faq/FAQS';
+import UseEffectExample from './components/useEffect/UseEffectExample';
+
 function App() {
   return (
     <div>
-          <FAQS />
+
+
+          {/* <FAQS /> */}
+          <UseEffectExample/>
+
+          
     </div>
   );
 }
