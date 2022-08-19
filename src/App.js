@@ -1,6 +1,7 @@
 
 import React from 'react'
-import Component1 from './components/propDrilling/Component1';
+import Users from './components/propsType/Users';
+
 
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
   return (
 
     <div>
-        <Component1/>
+         <Users/>
     </div>
   );
 }

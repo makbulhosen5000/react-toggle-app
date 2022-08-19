@@ -3,7 +3,6 @@ import { UserContext } from './UserContext';
 
 function Components4() {
     const {user,text} = useContext(UserContext);
-    console.log(user);
   return (
     <div>
         <p> {user.id}</p>
