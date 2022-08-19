@@ -1,5 +1,6 @@
 
-import UseReducer from './components/useReducer';
+import React from 'react'
+import Component1 from './components/propDrilling/Component1';
 
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
   return (
 
     <div>
-         <UseReducer/>
+        <Component1/>
     </div>
   );
 }
