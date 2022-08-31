@@ -2,7 +2,7 @@ import React from 'react'
 import './style.css'
 
 const todoTitle = "Call Family";
-const todoDesc = "this is text for message ";
+const todoDesc = "Bangladesh is a small country but it has large population";
 const date = new Date();
 const getDay = date.getDate();
 const getMonth = date.getMonth();
@@ -19,9 +19,12 @@ function MyApp() {
   return (
     <div className="pageStyle">
         <h1 style={cssStyle}>Todo App</h1>
-          <h3 style={{ fontSize:"25px" }}>{todoTitle}</h3>
-          <p>{todoDesc}</p>
-          <p>{getDay +"/"+ + getMonth +"/"+ + getYear}</p>
+        <div className="card">
+          <h3 className="cardTitle">{todoTitle}</h3>
+          <p className="cardDesc">{todoDesc}</p>
+          <p className="cardFooter">{getDay +"/"+ + getMonth +"/"+ + getYear}</p>
+        </div>
+         
     </div>
   )
 }
