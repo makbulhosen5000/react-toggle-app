@@ -1,4 +1,10 @@
 
+
+import React from 'react'
+import Card from './practice/Card'
+import './practice/style.css'
+
+
 // import React, { useState } from 'react'
 // import Message from './components/Memo/Message';
 // import { BrowserRouter,Routes,Route } from 'react-router-dom';
@@ -9,9 +15,13 @@
 // import Navbar from './components/reactRouting/pages/Navbar';
 
 
-import React from 'react'
-import MyApp from './practice/MyApp';
 
+const cssStyle = {
+  color:"white",
+  textAlign:"center",
+  backgroundColor:"red",
+  padding:"15px",
+}
 
 
 
@@ -20,7 +30,15 @@ function App() {
   return (
   
      <div>
-          <MyApp/>
+          <div className="pageStyle">
+        <h1 style={cssStyle}>Todo App</h1>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+
+         
+    </div>
      </div>
 
 
