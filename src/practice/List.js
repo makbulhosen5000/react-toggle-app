@@ -6,16 +6,34 @@ const todos = [
         "id" : uuidv4(),
         "title": "Bangladesh",
         "desc" : "Bangladesh is a beautiful country",
+        "phones":[
+            {
+                "phone" : "0178822214",
+                "email" : "aa@gmail.com"
+            }
+        ]
     },
     {
         "id" : uuidv4(),
         "title": "India",
         "desc" : "India is a wonderful country ",
+        "phones":[
+            {
+                "phone" : "017844822214",
+                "email" : "b@gmail.com"
+            }
+        ]
     },
     {
         "id" : uuidv4(),
         "title": "Pakistan",
         "desc" : "I don't know about Pakistan",
+        "phones":[
+            {
+                "phone" : "0178445822214",
+                "email" : "a@gmail.com"
+            }
+        ]
     }
 ]
 
@@ -29,6 +47,14 @@ function List() {
                 <div key={id}>
                     <h1>{title}</h1>
                     <p>{desc}</p>
+                    {todo.phones.map((phone)=>{
+                        return(
+                            <article>
+                                <p>{phone.phone}</p>
+                                <p>{phone.email}</p>
+                            </article>
+                        )
+                    })}
                 </div>
             )
         })}
