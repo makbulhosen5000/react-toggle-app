@@ -32,10 +32,10 @@ function App() {
      <div>
           <div className="pageStyle">
         <h1 style={cssStyle}>Todo App</h1>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        <Card title="Call Family" desc="this is desc1" />
+        <Card title="Call Mother" desc="this is desc2" />
+        <Card title="Call Father" desc="this is desc3" />
+        <Card title="Call Brother" desc="this is desc4" />
 
          
     </div>
