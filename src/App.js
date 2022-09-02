@@ -5,6 +5,7 @@ import Card from './practice/Card'
 import './practice/style.css'
 import Data from './practice/Data.json';
 import List from './practice/List';
+import STATE from './practice/STATE';
 
 // import React, { useState } from 'react'
 // import Message from './components/Memo/Message';
@@ -31,11 +32,17 @@ function App() {
   
   return (
      <div>
-        <div className="pageStyle">
+     
+      <div className="pageStyle">
         <h1 style={cssStyle}>Todo App</h1>
         {Data.map((item, index)=><Card key={index} title={item.title} desc={item.desc} /> )}
         </div>
         <List/>
+
+
+            <STATE/>
+
+ 
      </div>
 
 

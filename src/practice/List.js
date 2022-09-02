@@ -1,5 +1,6 @@
 import React from 'react'
 import { v4 as uuidv4 } from 'uuid';
+import { FaFacebookF } from "react-icons/fa";
 
 const todos = [
     {
@@ -45,7 +46,7 @@ function List() {
             const {id,title,desc} = todo;
             return(
                 <div key={id}>
-                    <h1>{title}</h1>
+                    <h1>{title} <FaFacebookF/> </h1>
                     <p>{desc}</p>
                     {todo.phones.map((phone)=>{
                         return(
@@ -53,6 +54,7 @@ function List() {
                                 <p>{phone.phone}</p>
                                 <p>{phone.email}</p>
                             </article>
+ 
                         )
                     })}
                 </div>
