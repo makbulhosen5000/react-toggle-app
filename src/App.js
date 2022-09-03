@@ -7,6 +7,7 @@ import Data from './practice/Data.json';
 import List from './practice/List';
 import STATE from './practice/STATE';
 import ConditionalRendaring from './practice/ConditionalRendaring';
+import EVENTHANDLER from './practice/eventHalderClass/EVENTHANDLER';
 
 // import React, { useState } from 'react'
 // import Message from './components/Memo/Message';
@@ -43,6 +44,7 @@ function App() {
 
             <STATE/>
             <ConditionalRendaring/>
+            <EVENTHANDLER/>
 
  
      </div>
