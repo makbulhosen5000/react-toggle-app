@@ -8,6 +8,7 @@ import List from './practice/List';
 import STATE from './practice/STATE';
 import ConditionalRendaring from './practice/ConditionalRendaring';
 import EVENTHANDLER from './practice/eventHalderClass/EVENTHANDLER';
+import UseState from './practice/reactHook/UseState';
 
 // import React, { useState } from 'react'
 // import Message from './components/Memo/Message';
@@ -45,6 +46,7 @@ function App() {
             <STATE/>
             <ConditionalRendaring/>
             <EVENTHANDLER/>
+            <UseState/>
 
  
      </div>
