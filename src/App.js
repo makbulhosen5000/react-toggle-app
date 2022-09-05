@@ -10,6 +10,7 @@ import ConditionalRendaring from './practice/ConditionalRendaring';
 import EVENTHANDLER from './practice/eventHalderClass/EVENTHANDLER';
 import UseState from './practice/reactHook/UseState';
 import FORM from './practice/reactHook/FORM';
+import Child from './practice/stateLifting/Child';
 
 
 // import React, { useState } from 'react'
@@ -34,7 +35,10 @@ const cssStyle = {
 
 function App() {
   
-  
+  const childToParent=(fromChild)=>{
+    console.log(fromChild);
+  }
+
   return (
      <div>
      
@@ -50,6 +54,8 @@ function App() {
             <EVENTHANDLER/>
             <UseState/>
             <FORM/>
+
+            <Child  onChildData={childToParent} />
             
 
  

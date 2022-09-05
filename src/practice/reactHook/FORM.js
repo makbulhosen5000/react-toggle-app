@@ -12,8 +12,6 @@ function FORM() {
     const formSubmit=(e)=>{    
         console.log(user);
         e.preventDefault();
-  
-
     }
   return (
     <div>
