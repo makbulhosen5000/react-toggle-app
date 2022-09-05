@@ -11,6 +11,7 @@ import EVENTHANDLER from './practice/eventHalderClass/EVENTHANDLER';
 import UseState from './practice/reactHook/UseState';
 import FORM from './practice/reactHook/FORM';
 import Child from './practice/stateLifting/Child';
+import Home from './practice/stateLifting/Home';
 
 
 // import React, { useState } from 'react'
@@ -56,6 +57,7 @@ function App() {
             <FORM/>
 
             <Child  onChildData={childToParent} />
+            <Home/>
             
 
  
