@@ -9,6 +9,8 @@ import STATE from './practice/STATE';
 import ConditionalRendaring from './practice/ConditionalRendaring';
 import EVENTHANDLER from './practice/eventHalderClass/EVENTHANDLER';
 import UseState from './practice/reactHook/UseState';
+import FORM from './practice/reactHook/FORM';
+
 
 // import React, { useState } from 'react'
 // import Message from './components/Memo/Message';
@@ -47,6 +49,8 @@ function App() {
             <ConditionalRendaring/>
             <EVENTHANDLER/>
             <UseState/>
+            <FORM/>
+            
 
  
      </div>
