@@ -12,6 +12,10 @@ import UseState from './practice/reactHook/UseState';
 import FORM from './practice/reactHook/FORM';
 import Child from './practice/stateLifting/Child';
 import Home from './practice/stateLifting/Home';
+import Toggle from './practice/Toggle/Toggle';
+import FAQS from './practice/faq/FAQS';
+import UseEffectExample from './practice/useEffectExample/UseEffectExample';
+import DataFetch from './practice/useEffectExample/DataFetch';
 
 
 // import React, { useState } from 'react'
@@ -58,6 +62,10 @@ function App() {
 
             <Child  onChildData={childToParent} />
             <Home/>
+            <Toggle/>
+            <FAQS/>
+            <UseEffectExample/>
+            <DataFetch/>
             
 
  
