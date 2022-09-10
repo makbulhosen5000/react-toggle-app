@@ -10,7 +10,7 @@ function UseEffectExample() {
   return (
  
     <div>
-      {console.log("rendering")}
+      {/* {console.log("rendering")} */}
         <h1>Count:{count}</h1>
         <button onClick={() => {setCount(count => count + 1)}}>+</button>
         <button onClick={() => {setIsLoading(!isLoading)}}>isLoading</button>
