@@ -17,6 +17,7 @@ import FAQS from './practice/faq/FAQS';
 import UseEffectExample from './practice/useEffectExample/UseEffectExample';
 import DataFetch from './practice/useEffectExample/DataFetch';
 import UserForm from './practice/useRef/UserForm';
+import UseReducer from './practice/useReducer';
 
 
 
@@ -69,6 +70,7 @@ function App() {
             <UseEffectExample/>
             {/* <DataFetch/> */}
             <UserForm/>
+            <UseReducer/>
             
 
  
