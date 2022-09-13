@@ -18,6 +18,8 @@ import UseEffectExample from './practice/useEffectExample/UseEffectExample';
 import DataFetch from './practice/useEffectExample/DataFetch';
 import UserForm from './practice/useRef/UserForm';
 import UseReducer from './practice/useReducer';
+import Component1 from './practice/useContext/Component1';
+
 
 
 
@@ -71,6 +73,7 @@ function App() {
             {/* <DataFetch/> */}
             <UserForm/>
             <UseReducer/>
+            <Component1/>
             
 
  
